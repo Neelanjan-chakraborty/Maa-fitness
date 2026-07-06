@@ -29,7 +29,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,700;10..72,800;10..72,900&family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600&family=Noto+Sans+Bengali:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,700;10..72,800;10..72,900&family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600&family=Noto+Sans+Bengali:wght@600&family=Noto+Sans+Telugu:wght@600&family=Noto+Sans+Tamil:wght@600&family=Noto+Sans+Oriya:wght@600&display=swap" rel="stylesheet">
 
 <script type="application/ld+json">
 {
@@ -111,6 +111,9 @@
   --cond:"Barlow Condensed", "Arial Narrow", sans-serif;
   --body:"Barlow", "Segoe UI", sans-serif;
   --beng:"Noto Sans Bengali", sans-serif;
+  --telu:"Noto Sans Telugu", sans-serif;
+  --tam:"Noto Sans Tamil", sans-serif;
+  --ori:"Noto Sans Oriya", sans-serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -233,15 +236,21 @@ h2 .red{color:var(--ember)}
   overflow:hidden;border-bottom:1px solid var(--line);background:var(--coal);
   padding:20px 0;white-space:nowrap;
 }
-.marquee-track{display:inline-flex;gap:0;animation:slide 30s linear infinite;will-change:transform}
+.marquee-track{display:inline-flex;gap:0;animation:slide 55s linear infinite;will-change:transform}
 .marquee span{
   font-family:var(--disp);font-weight:800;font-size:30px;text-transform:uppercase;
   letter-spacing:.06em;color:transparent;-webkit-text-stroke:1px rgba(217,164,74,.55);
   padding-right:26px;
 }
 .marquee span.bn{font-family:var(--beng);font-weight:600;font-size:26px;-webkit-text-stroke:0;color:rgba(217,164,74,.55);letter-spacing:0}
+.marquee span.te{font-family:var(--telu);font-weight:600;font-size:25px;-webkit-text-stroke:0;color:rgba(217,164,74,.55);letter-spacing:0}
+.marquee span.ta{font-family:var(--tam);font-weight:600;font-size:25px;-webkit-text-stroke:0;color:rgba(217,164,74,.55);letter-spacing:0}
+.marquee span.or{font-family:var(--ori);font-weight:600;font-size:25px;-webkit-text-stroke:0;color:rgba(217,164,74,.55);letter-spacing:0}
 .marquee i{font-style:normal;color:var(--ember);padding-right:26px;font-size:26px;line-height:1.4}
 @keyframes slide{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion: reduce){
+  .marquee-track{animation-duration:55s !important;animation-iteration-count:infinite !important}
+}
 
 /* ---------- about / film ---------- */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
@@ -497,8 +506,13 @@ footer{border-top:1px solid var(--line);padding:34px 0;background:var(--coal)}
   <div class="marquee-track" id="marqueeTrack">
     <span>The Real Power Station</span><i>◆</i>
     <span class="bn">আসল পাওয়ার স্টেশন</span><i>◆</i>
+    <span class="te">అసలైన పవర్ స్టేషన్</span><i>◆</i>
+    <span class="ta">உண்மையான பவர் ஸ்டேஷன்</span><i>◆</i>
+    <span class="or">ପ୍ରକୃତ ପାୱାର ଷ୍ଟେସନ</span><i>◆</i>
     <span>A Unisex Fitness Studio</span><i>◆</i>
+    <span>MAA Fitness Studios</span><i>◆</i>
     <span>Kharagpur</span><i>◆</i>
+    <span>Kharida Main Road</span><i>◆</i>
   </div>
 </div>
 
