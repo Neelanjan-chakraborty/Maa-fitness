@@ -1,0 +1,99 @@
+MAA FITNESS STUDIOS — Media Resources
+"The Real Power Station" | A Unisex Fitness Studio
+Yes Bank's 2nd floor, Kharida Main Road, Kharagpur, W.B. PIN-721301 | +91 7699434646
+
+========================================
+IMAGES
+========================================
+
+res\Logo in Black BG.jpeg
+  Primary brand logo on a solid black background. Gold "MS/M" monogram shield inside a
+  circular badge reading "A UNISEX FITNESS STUDIO" and "THE REAL POWER STATION" with
+  dumbbell icons. Below: "MAA FITNESS STUDIOS" wordmark with tagline "The Real Power
+  Station". Clean square logo lockup, ideal for headers/footers and light-on-dark use.
+
+res\Logo in Ember BG.png
+  The same gold monogram badge composited over a fiery ember/spark explosion on a
+  transparent background. Stylized hero/emblem version of the logo for dramatic accents,
+  overlays, or favicons. Includes the wordmark beneath the badge.
+
+res\Man in Ember BG.png
+  Muscular shirtless male bodybuilder, front torso flexed, lit dramatically with glowing
+  embers/sparks behind him on a transparent background. Hero/section visual conveying
+  strength and intensity.
+
+res\Man without Background.png
+  The same muscular shirtless male bodybuilder, head bowed and torso flexed, fully cut out
+  on a transparent background (no embers). Clean PNG cutout for flexible compositing over
+  any background or section.
+
+res\Packages.jpeg
+  Membership pricing flyer (portrait). Logo and gym interior backdrop with title
+  "MEMBERSHIP PACKAGE" and four gold-bordered tiers:
+    BRONZE ₹1800 — Reg fee ₹1000 + ₹800/month; Unlimited Equipments, Personal Trainer, No Time Restrictions
+    SILVER ₹2400 — No reg fee + ₹800 x 3 months; Unlimited Equipments, Weight Losing Classes, No Time Restrictions
+    GOLD ₹4200 — No reg fee + ₹700 x 6 months; Unlimited Equipments, Weight Losing Classes, No Time Restrictions
+    DIAMOND ₹7200 — No reg fee + ₹600 x 12 months; Unlimited Equipments, Weight Losing Classes, No Time Restrictions
+  Includes address and phone number at the bottom.
+
+res\Plans.png
+  Stylized version of the four membership plans (Bronze, Silver, Gold, Diamond) rendered as
+  gold banner/shield cards on a fiery ember background (landscape). Same pricing as the
+  flyer; web-ready pricing-section graphic. Note: minor typos in source art ("GOl.D",
+  "Regictration", "Unlimitad").
+
+res\Refference.png
+  Website design reference/mockup of the MAA Fitness Studios landing page. Dark hero layout
+  with nav (Home, About Us, Programs, Trainers, Gallery, Membership, Contact), headline
+  "REAL PEOPLE. REAL TRAINING. REAL RESULTS.", CTA buttons (Join Now, Book Free Trial),
+  the ember logo badge with bodybuilder, and stat counters (500+ Active Members,
+  1200+ Transformations, 5+ Expert Trainers, 95% Member Retention). Layout guide for the site.
+
+res\Trainer-1.webp
+  Promotional poster of three shirtless male trainers/athletes posing in front of the
+  glowing gold logo badge on a fiery ember background. High-impact team/trainer hero image.
+
+res\Trainer-1 Front.webp
+  Trainer photo — front/quarter pose, shirtless athlete flexing arms in front of a bright
+  window. Individual trainer portrait for a trainers/gallery section.
+
+res\Trainer-1 Left.webp
+  Trainer photo — same athlete in a side/profile stance looking right, backlit by a window.
+  Individual trainer portrait variant.
+
+res\Trainer-1 Side.webp
+  Trainer photo — same athlete in a relaxed side pose, abs and arm visible, backlit by a
+  window. Individual trainer portrait variant.
+
+========================================
+VIDEOS
+========================================
+
+res\promo.mp4  (~1:34, landscape/16:9)
+  Full promotional brand film for the gym. Opens with a glowing "GYM OPEN — 2nd Floor"
+  sign and animated 3D logo reveal, then cinematic footage of members (men and women)
+  training on machines, dumbbells, and cardio equipment inside the studio. Branded logo
+  watermark throughout. Main hero/promo video for the website.
+
+res\Promo-mob.mp4  (~0:54, portrait/9:16)
+  Vertical (mobile/reels) cut of the promo. Energetic gym training montage with neon
+  outline/glow stylized shots and high-contrast footage of members working out, ending on
+  a "Under the surveillance of HANUMAN JI" card with a deity image. Optimized for mobile
+  hero and social stories.
+
+res\reel-1.mp4  (~0:11, portrait/9:16)
+  Short social reel: a male member performing seated dumbbell curls, with motivational text
+  overlay "Your only limit is You". Quick engagement/social clip.
+
+res\reel-2.mp4  (~0:18, portrait/9:16)
+  Transformation-style reel. Caption "3 years of lifting" over a lean, muscular shirtless
+  athlete doing a hanging/pull pose; small inset clip in the corner. Progress/motivation reel.
+
+res\reel-3.mp4  (~0:26, portrait/9:16)
+  Female-focused training reel. A woman (red pants) performing an inverted row / lat-pull
+  movement on a Smith machine, with text overlay "Every rep makes her stronger". Promotes
+  the unisex / women's training angle.
+
+res\reel-4.mp4  (~0:08, portrait/9:16)
+  Candid gym moment reel labeled "dumbbell". A female trainer/member talking while a male
+  member sits holding heavy dumbbells. Light, community-vibe social clip.
