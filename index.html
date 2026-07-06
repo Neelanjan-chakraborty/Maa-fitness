@@ -5,10 +5,96 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MAA Fitness Studios — The Real Power Station | Unisex Gym in Kharagpur</title>
 <meta name="description" content="MAA Fitness Studios — a unisex fitness studio in Kharagpur. Unlimited equipment, certified trainers, weight-loss classes, no time restrictions. Open 6AM–10PM. Call +91 76994 34646.">
-<link rel="icon" type="image/png" href="res/Logo%20in%20Ember%20BG.png">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#0B0805">
+<meta name="geo.region" content="IN-WB">
+<meta name="geo.placename" content="Kharagpur">
+<link rel="canonical" href="https://maafitnessstudios.fitexo.in/">
+<link rel="icon" type="image/png" href="res/Logo_MAIN.png">
+
+<!-- Open Graph -->
+<meta property="og:type" content="business.business">
+<meta property="og:site_name" content="MAA Fitness Studios">
+<meta property="og:title" content="MAA Fitness Studios — The Real Power Station | Unisex Gym in Kharagpur">
+<meta property="og:description" content="A unisex fitness studio in Kharagpur. Unlimited equipment, certified trainers, weight-loss classes, no time restrictions. Open 6AM–10PM.">
+<meta property="og:url" content="https://maafitnessstudios.fitexo.in/">
+<meta property="og:image" content="https://maafitnessstudios.fitexo.in/res/Trainer-1.webp">
+<meta property="og:locale" content="en_IN">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MAA Fitness Studios — The Real Power Station">
+<meta name="twitter:description" content="A unisex fitness studio in Kharagpur. Unlimited equipment, certified trainers, weight-loss classes, no time restrictions.">
+<meta name="twitter:image" content="https://maafitnessstudios.fitexo.in/res/Trainer-1.webp">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,700;10..72,800;10..72,900&family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600&family=Noto+Sans+Bengali:wght@600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ExerciseGym",
+  "name": "MAA Fitness Studios",
+  "alternateName": "The Real Power Station",
+  "description": "A unisex fitness studio in Kharagpur offering unlimited equipment access, certified personal trainers, weight-loss classes, and no time restrictions.",
+  "url": "https://maafitnessstudios.fitexo.in/",
+  "telephone": "+91-76994-34646",
+  "image": "https://maafitnessstudios.fitexo.in/res/Trainer-1.webp",
+  "logo": "https://maafitnessstudios.fitexo.in/res/Logo_MAIN.png",
+  "priceRange": "₹1800 - ₹7200",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Yes Bank's 2nd Floor, Kharida Main Road",
+    "addressLocality": "Kharagpur",
+    "addressRegion": "West Bengal",
+    "postalCode": "721301",
+    "addressCountry": "IN"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "06:00",
+    "closes": "22:00"
+  },
+  "sameAs": [
+    "https://www.instagram.com/maa_fitness_studios/",
+    "https://www.justdial.com/Kharagpur/Maa-Fitness-Studios-Kharida-Main-Road/9999P3222-3222-250122221243-G7W2_BZDET",
+    "https://share.google/W1HIvYtmLUmPGcw4j"
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "name": "Bronze Membership",
+      "price": "1800",
+      "priceCurrency": "INR",
+      "description": "₹1,000 registration + ₹800/month — unlimited equipment access, personal trainer support, no time restrictions."
+    },
+    {
+      "@type": "Offer",
+      "name": "Silver Membership",
+      "price": "2400",
+      "priceCurrency": "INR",
+      "description": "No registration fee, ₹800 × 3 months — unlimited equipment access, weight-loss classes, no time restrictions."
+    },
+    {
+      "@type": "Offer",
+      "name": "Gold Membership",
+      "price": "4200",
+      "priceCurrency": "INR",
+      "description": "No registration fee, ₹700 × 6 months — unlimited equipment access, weight-loss classes, no time restrictions."
+    },
+    {
+      "@type": "Offer",
+      "name": "Diamond Membership",
+      "price": "7200",
+      "priceCurrency": "INR",
+      "description": "No registration fee, ₹600 × 12 months — unlimited equipment access, weight-loss classes, no time restrictions."
+    }
+  ]
+}
+</script>
+
 <style>
 :root{
   --coal:#0B0805;
@@ -87,6 +173,16 @@ h2 .red{color:var(--ember)}
 .btn-sm{padding:10px 20px;font-size:14.5px}
 .nav-toggle{display:none;background:none;border:1px solid var(--line);color:var(--gold);font-size:22px;width:44px;height:44px;cursor:pointer}
 
+/* ---------- utility bar ---------- */
+.utility-bar{background:var(--coal);border-bottom:1px solid var(--line);padding:7px 0}
+.utility-in{display:flex;justify-content:flex-end}
+.utility-credit{font-family:var(--cond);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ash);display:flex;align-items:center;gap:6px}
+.utility-credit a{
+  display:inline-flex;align-items:center;gap:5px;color:var(--gold-hi);
+  border:1px solid var(--line);padding:3px 10px;transition:border-color .2s,color .2s;
+}
+.utility-credit a:hover{border-color:var(--gold);color:var(--gold)}
+
 /* ---------- hero ---------- */
 .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);min-height:100vh}
 .hero-media{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;background:var(--coal)}
@@ -157,13 +253,8 @@ h2 .red{color:var(--ember)}
   font-family:var(--cond);font-weight:600;font-size:18px;letter-spacing:.1em;text-transform:uppercase;
 }
 .about-points li::before{content:"—";color:var(--ember);flex:none}
-.film{position:relative;border:1px solid var(--line);background:#000}
-.film video{width:100%;aspect-ratio:16/9;object-fit:cover}
-.film-tag{
-  position:absolute;top:0;left:0;background:var(--gold);color:#1A1206;
-  font-family:var(--cond);font-weight:600;font-size:13.5px;letter-spacing:.24em;text-transform:uppercase;
-  padding:7px 16px;z-index:2;
-}
+.film{position:relative;border:1px solid var(--line);background:#000;overflow:hidden}
+.film img{width:100%;display:block}
 
 /* ---------- programs ---------- */
 .programs{background:var(--soot);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -180,16 +271,26 @@ h2 .red{color:var(--ember)}
 .prog:hover::after{width:56px}
 
 /* ---------- trainers ---------- */
-.trainer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
-.trainer{position:relative;border:1px solid var(--line);overflow:hidden;background:var(--soot)}
-.trainer img{aspect-ratio:3/4;object-fit:cover;width:100%;filter:saturate(.92);transition:transform .5s,filter .5s}
-.trainer:hover img{transform:scale(1.04);filter:saturate(1.05)}
-.trainer figcaption{
-  position:absolute;inset:auto 0 0 0;padding:60px 22px 18px;
-  background:linear-gradient(180deg,transparent,rgba(11,8,5,.94) 70%);
+.trainer-feature{
+  display:grid;grid-template-columns:.85fr 1.15fr;gap:48px;align-items:center;
+  border:1px solid var(--line);background:var(--soot);padding:44px;
 }
-.trainer b{font-family:var(--disp);font-weight:800;font-size:24px;text-transform:uppercase;letter-spacing:.03em;display:block}
-.trainer span{font-family:var(--cond);font-weight:600;font-size:14px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.trainer-cover{aspect-ratio:3/4;object-fit:cover;width:100%;border:1px solid var(--line)}
+.trainer-info span{font-family:var(--cond);font-weight:600;font-size:14px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:10px}
+.trainer-info b{font-family:var(--disp);font-weight:800;font-size:34px;text-transform:uppercase;letter-spacing:.02em;display:block;line-height:1.05;margin-bottom:16px}
+.trainer-info p{color:var(--ash)}
+.trainer-sides{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:26px}
+.trainer-sides img{aspect-ratio:3/4;object-fit:cover;width:100%;filter:saturate(.92);transition:transform .5s,filter .5s;border:1px solid var(--line)}
+.trainer-sides img:hover{transform:scale(1.04);filter:saturate(1.05)}
+
+/* ---------- transformations ---------- */
+.transformations{background:var(--soot);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.transform-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.transform-card{
+  border:1px solid var(--line);background:#000;
+  height:640px;display:flex;align-items:center;justify-content:center;overflow:hidden;
+}
+.transform-card img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
 
 /* ---------- reels ---------- */
 .reels{background:var(--soot);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -247,6 +348,12 @@ h2 .red{color:var(--ember)}
 }
 .contact-list a{border-bottom:1px solid rgba(217,164,74,.4);transition:color .2s}
 .contact-list a:hover{color:var(--gold-hi)}
+.link-chips{display:flex;gap:10px;flex-wrap:wrap}
+.link-chips a{
+  font-family:var(--cond);font-weight:600;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gold-hi);border:1px solid var(--line);padding:7px 14px;transition:border-color .2s,color .2s;
+}
+.link-chips a:hover{border-color:var(--gold);color:var(--gold)}
 .contact-card{
   border:1px solid var(--gold);padding:44px 40px;text-align:center;
   background:
@@ -262,6 +369,13 @@ h2 .red{color:var(--ember)}
 footer{border-top:1px solid var(--line);padding:34px 0;background:var(--coal)}
 .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center;color:var(--ash);font-size:14.5px}
 .foot b{font-family:var(--cond);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-size:14px}
+.foot-sub{
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px;
+  padding-top:22px;margin-top:22px;border-top:1px solid var(--line);
+}
+.foot-fitexo{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.foot-credit{font-size:13.5px;color:var(--ash)}
+.foot-credit strong{color:var(--gold-hi);font-weight:600}
 
 /* ---------- reveal ---------- */
 .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
@@ -269,9 +383,11 @@ footer{border-top:1px solid var(--line);padding:34px 0;background:var(--coal)}
 
 /* ---------- responsive ---------- */
 @media (max-width:1020px){
-  .hero-in{grid-template-columns:1fr;min-height:0;padding-top:40px;padding-bottom:40px}
-  .hero-visual{order:-1;min-height:0;max-width:440px;margin:0 auto}
-  .hero-badge{width:min(430px,100%)}
+  .hero{min-height:0}
+  .hero-in{min-height:0;padding:88px 0 56px}
+  .trainer-feature{grid-template-columns:1fr;gap:32px}
+  .transform-grid{grid-template-columns:1fr}
+  .transform-card{height:480px}
   .prog-grid{grid-template-columns:repeat(2,1fr)}
   .plan-grid{grid-template-columns:repeat(2,1fr)}
   .reel-strip{grid-template-columns:repeat(2,1fr)}
@@ -290,20 +406,31 @@ footer{border-top:1px solid var(--line);padding:34px 0;background:var(--coal)}
 @media (max-width:600px){
   .section{padding:72px 0}
   .prog-grid,.plan-grid{grid-template-columns:1fr}
-  .trainer-grid{grid-template-columns:1fr}
+  .trainer-feature{padding:26px}
+  .trainer-sides{gap:8px}
   .fact b{font-size:15px}
   .hero-facts{gap:16px 18px}
   .reel-strip{grid-template-columns:1fr;max-width:340px;margin:0 auto}
+  .utility-credit{font-size:10.5px}
+  .foot-sub{justify-content:center;text-align:center}
+  .transform-card{height:380px}
 }
 </style>
 </head>
 <body>
 
+<!-- ================= UTILITY BAR ================= -->
+<div class="utility-bar">
+  <div class="wrap utility-in">
+    <span class="utility-credit">Managed &amp; Maintained by <a href="https://fitexo.in/" target="_blank" rel="noopener">Fitexo ↗</a></span>
+  </div>
+</div>
+
 <!-- ================= NAV ================= -->
 <nav class="nav" id="nav">
   <div class="nav-in">
     <a class="brand" href="#top" aria-label="MAA Fitness Studios — home">
-      <img src="res/Logo%20in%20Ember%20BG.png" alt="MAA Fitness Studios logo">
+      <img src="res/Logo_MAIN.png" alt="MAA Fitness Studios logo">
       <span>
         <span class="brand-name">MAA Fitness Studios</span>
         <span class="brand-tag">The Real Power Station</span>
@@ -313,6 +440,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;background:var(--coal)}
       <a href="#about">About</a>
       <a href="#programs">Programs</a>
       <a href="#trainers">Trainers</a>
+      <a href="#results">Results</a>
       <a href="#gallery">Gallery</a>
       <a href="#membership">Membership</a>
       <a href="#contact">Contact</a>
@@ -324,6 +452,11 @@ footer{border-top:1px solid var(--line);padding:34px 0;background:var(--coal)}
 
 <!-- ================= HERO ================= -->
 <header class="hero" id="top">
+  <video class="hero-media" id="heroVideo" poster="res/Logo_MAIN.png" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+    <source src="res/Promo-mob-web.mp4" type="video/mp4" media="(max-width: 700px)">
+    <source src="res/promo-web.mp4" type="video/mp4">
+  </video>
+  <div class="hero-scrim" aria-hidden="true"></div>
   <div class="wrap hero-in">
     <div class="hero-copy">
       <h1>
@@ -345,10 +478,6 @@ footer{border-top:1px solid var(--line);padding:34px 0;background:var(--coal)}
         <div class="fact"><b>Modern Equipment</b><span>unlimited access</span></div>
         <div class="fact"><b>Open 6AM–10PM</b><span>no time restrictions</span></div>
       </div>
-    </div>
-    <div class="hero-visual" aria-hidden="true">
-      <img class="hero-badge" src="res/Logo%20in%20Ember%20BG.png" alt="">
-      <img class="hero-man" src="res/Man%20without%20Background.png" alt="">
     </div>
   </div>
 </header>
@@ -395,11 +524,8 @@ footer{border-top:1px solid var(--line);padding:34px 0;background:var(--coal)}
         <li>Personal training &amp; weight-loss classes</li>
       </ul>
     </div>
-    <div class="film">
-      <span class="film-tag">Inside the studio</span>
-      <video controls preload="none" poster="res/Trainer-1.webp" playsinline>
-        <source src="res/promo.mp4" type="video/mp4">
-      </video>
+    <div class="film reveal">
+      <img src="res/Landing%20Page.webp" alt="MAA Fitness Studios crest over two athletes flexing their backs in the studio, with the tagline Discipline Today, Strength Tomorrow" loading="lazy">
     </div>
   </div>
 </section>
@@ -442,20 +568,38 @@ footer{border-top:1px solid var(--line);padding:34px 0;background:var(--coal)}
     <div class="section-head">
       <p class="eyebrow">Trainers</p>
       <h2>Built here.<br><em>Proven</em> here.</h2>
-      <p>Our trainers train on the same floor they coach on — living proof of what consistency at MAA looks like.</p>
+      <p>Our trainer trains on the same floor he coaches on — living proof of what consistency at MAA looks like.</p>
     </div>
-    <div class="trainer-grid">
-      <figure class="trainer reveal">
-        <img src="res/Trainer-1%20Front.webp" alt="MAA trainer flexing in a front pose" loading="lazy">
-        <figcaption><b>Strength Coach</b><span>Muscle &amp; Hypertrophy</span></figcaption>
+    <div class="trainer-feature reveal">
+      <img class="trainer-cover" src="res/Trainer-1.webp" alt="MAA head trainer" loading="lazy">
+      <div class="trainer-info">
+        <span>Head Trainer</span>
+        <b>Strength. Transformation. Fundamentals.</b>
+        <p>One trainer, every discipline — hypertrophy training, fat-loss conditioning, and form fundamentals, coached on the same floor you train on.</p>
+        <div class="trainer-sides">
+          <img src="res/Trainer-1%20Front.webp" alt="Head trainer, front pose" loading="lazy">
+          <img src="res/Trainer-1%20Left.webp" alt="Head trainer, left side pose" loading="lazy">
+          <img src="res/Trainer-1%20Side.webp" alt="Head trainer, side pose" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRANSFORMATIONS ================= -->
+<section class="section transformations" id="results">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Real Results</p>
+      <h2>1,200+ transformations.<br>Here's <em>two</em> of them.</h2>
+      <p>Real members, real timelines — proof that consistency at MAA works both ways: fat loss and lean muscle gain.</p>
+    </div>
+    <div class="transform-grid">
+      <figure class="transform-card reveal">
+        <img src="res/transformation.webp" alt="Member transformation poster: 97kg to 79kg in 4 months" loading="lazy">
       </figure>
-      <figure class="trainer reveal">
-        <img src="res/Trainer-1%20Left.webp" alt="MAA trainer in a side profile stance" loading="lazy">
-        <figcaption><b>Transformation Coach</b><span>Fat Loss &amp; Conditioning</span></figcaption>
-      </figure>
-      <figure class="trainer reveal">
-        <img src="res/Trainer-1%20Side.webp" alt="MAA trainer in a relaxed side pose" loading="lazy">
-        <figcaption><b>Floor Trainer</b><span>Form &amp; Fundamentals</span></figcaption>
+      <figure class="transform-card reveal">
+        <img src="res/Transformation2.webp" alt="Member transformation poster: 5 months from 50kg to 54kg of pure muscle" loading="lazy">
       </figure>
     </div>
   </div>
@@ -576,10 +720,18 @@ footer{border-top:1px solid var(--line);padding:34px 0;background:var(--coal)}
           <span class="k">Map</span>
           <span><a href="https://www.google.com/maps/search/?api=1&query=Yes+Bank+Kharida+Main+Road+Kharagpur+721301" target="_blank" rel="noopener">Open in Google Maps</a></span>
         </li>
+        <li>
+          <span class="k">Find Us</span>
+          <span class="link-chips">
+            <a href="https://share.google/W1HIvYtmLUmPGcw4j" target="_blank" rel="noopener" aria-label="MAA Fitness Studios on Google">Google</a>
+            <a href="https://www.instagram.com/maa_fitness_studios/" target="_blank" rel="noopener" aria-label="MAA Fitness Studios on Instagram">Instagram</a>
+            <a href="https://www.justdial.com/Kharagpur/Maa-Fitness-Studios-Kharida-Main-Road/9999P3222-3222-250122221243-G7W2_BZDET" target="_blank" rel="noopener" aria-label="MAA Fitness Studios on JustDial">JustDial</a>
+          </span>
+        </li>
       </ul>
     </div>
     <div class="contact-card reveal">
-      <img src="res/Logo%20in%20Ember%20BG.png" alt="">
+      <img src="res/Logo_MAIN.png" alt="">
       <h3>First session<br>is on us.</h3>
       <p>Walk in for a free trial — meet the trainers, feel the floor, then decide.</p>
       <a class="btn btn-gold" href="https://wa.me/917699434646?text=Hi%2C%20I%20want%20to%20book%20a%20free%20trial%20at%20MAA%20Fitness%20Studios." target="_blank" rel="noopener">Book Free Trial on WhatsApp</a>
@@ -594,6 +746,17 @@ footer{border-top:1px solid var(--line);padding:34px 0;background:var(--coal)}
     <span><b>MAA Fitness Studios</b> — The Real Power Station</span>
     <span>Yes Bank's 2nd Floor, Kharida Main Road, Kharagpur, W.B. 721301</span>
     <span>© <span id="year"></span> MAA Fitness Studios</span>
+  </div>
+  <div class="wrap foot-sub">
+    <div class="link-chips">
+      <a href="https://share.google/W1HIvYtmLUmPGcw4j" target="_blank" rel="noopener" aria-label="MAA Fitness Studios on Google">Google</a>
+      <a href="https://www.instagram.com/maa_fitness_studios/" target="_blank" rel="noopener" aria-label="MAA Fitness Studios on Instagram">Instagram</a>
+      <a href="https://www.justdial.com/Kharagpur/Maa-Fitness-Studios-Kharida-Main-Road/9999P3222-3222-250122221243-G7W2_BZDET" target="_blank" rel="noopener" aria-label="MAA Fitness Studios on JustDial">JustDial</a>
+    </div>
+    <div class="foot-fitexo">
+      <span class="foot-credit">Managed &amp; Maintained by <strong>Fitexo</strong></span>
+      <a class="btn btn-line btn-sm" href="https://fitexo.in/" target="_blank" rel="noopener">Visit Fitexo →</a>
+    </div>
   </div>
 </footer>
 
@@ -615,6 +778,12 @@ track.innerHTML += track.innerHTML;
 
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+// hero video: always autoplay (muted/looped background video, source selection is native HTML)
+const heroVideo = document.getElementById('heroVideo');
+if (heroVideo) {
+  heroVideo.play().catch(() => {});
+}
+
 // scroll reveal
 const io = new IntersectionObserver(entries => {
   entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
@@ -628,7 +797,6 @@ const cio = new IntersectionObserver(entries => {
     if (!en.isIntersecting) return;
     cio.unobserve(en.target);
     const el = en.target, target = +el.dataset.count, suffix = el.dataset.suffix || '';
-    if (reduceMotion) { el.textContent = target + suffix; return; }
     const t0 = performance.now(), dur = 1400;
     (function tick(now) {
       const p = Math.min((now - t0) / dur, 1);
