@@ -264,6 +264,7 @@ h2 .red{color:var(--ember)}
 .about-points li::before{content:"—";color:var(--ember);flex:none}
 .film{position:relative;border:1px solid var(--line);background:#000;overflow:hidden}
 .film img{width:100%;display:block}
+.content-img{cursor:pointer}
 
 /* ---------- programs ---------- */
 .programs{background:var(--soot);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -843,6 +844,33 @@ reels.forEach(reel => {
 });
 
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// content images: click to jump to the Transformations (Results) section
+const contentImageSelectors = [
+  '.film img',
+  '.trainer-cover',
+  '.trainer-sides img',
+  '.transform-card img',
+  '.contact-card img'
+];
+const contentImages = document.querySelectorAll(contentImageSelectors.join(','));
+const resultsSection = document.getElementById('results');
+contentImages.forEach(img => {
+  img.classList.add('content-img');
+  img.setAttribute('tabindex', '0');
+  img.setAttribute('role', 'button');
+  img.setAttribute('aria-label', 'Jump to results / transformations section');
+  img.addEventListener('click', () => {
+    resultsSection.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+  });
+  img.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      resultsSection.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+    }
+  });
+});
+
 </script>
 </body>
 </html>
