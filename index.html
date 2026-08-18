@@ -459,26 +459,59 @@
       text-transform: uppercase;
       font-size: clamp(48px, 7.2vw, 104px);
       line-height: .92;
-      letter-spacing: .005em;
+      letter-spacing: .01em;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
     }
 
     .hero-copy h1 span {
       display: block;
       white-space: nowrap;
+      font-size: 1em;
+      font-weight: 900;
     }
 
+    @keyframes tricolourShimmer {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    /* Red, White, Golden Theme - Solid & Uniform */
     .h1-people {
-      color: var(--bone)
+      background: linear-gradient(120deg, #FF1A1A 0%, #FF3322 35%, #FFFFFF 50%, #E23B26 65%, #CC0000 100%);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: tricolourShimmer 4s ease infinite;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.95)) drop-shadow(0 0 4px rgba(226, 59, 38, 0.7));
     }
 
     .h1-training {
-      color: transparent;
-      -webkit-text-stroke: 1.5px rgba(245, 245, 247, .85)
+      background: linear-gradient(120deg, #FFFFFF 0%, #F8FAFC 35%, #E2E8F0 65%, #FFFFFF 100%);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: tricolourShimmer 4s ease infinite;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.95)) drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
     }
 
     .h1-results {
-      color: var(--ember);
-      text-shadow: 0 0 42px rgba(226, 59, 38, .35)
+      background: linear-gradient(120deg, #FFF099 0%, #FFD700 35%, #FFFFFF 50%, #FFB700 65%, #D9A44A 100%);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: tricolourShimmer 4s ease infinite;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.95)) drop-shadow(0 0 6px rgba(255, 215, 0, 0.8));
     }
 
     .hero-sub {
