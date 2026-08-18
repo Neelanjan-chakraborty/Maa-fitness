@@ -2072,27 +2072,27 @@
     <div class="wrap">
       <div class="section-head">
         <p class="eyebrow">From the floor</p>
-        <h2>Shot at MAA.<br>Not <span class="red">staged.</span></h2>
-        <p>Tap a reel to play. Real members, real sessions, straight from the studio floor.</p>
+        <h2>Shot at MAA Fitness Studios.<br>Not <span class="red">staged.</span></h2>
+        <p>Tap a reel to pause/play. Real members, real sessions, straight from the studio floor.</p>
       </div>
       <div class="reel-strip">
-        <div class="reel" data-reel tabindex="0" role="button" aria-label="Play reel: your only limit is you">
-          <video src="res/reel-1.mp4" preload="auto" muted loop playsinline webkit-playsinline disablepictureinpicture disableremoteplayback></video>
+        <div class="reel playing" data-reel tabindex="0" role="button" aria-label="Play reel: your only limit is you">
+          <video src="https://res.cloudinary.com/wasjl3ph/video/upload/v1787083423/WhatsApp_Video_2026-08-15_at_7.44.15_PM.mp4" autoplay preload="auto" muted loop playsinline webkit-playsinline disablepictureinpicture disableremoteplayback></video>
           <span class="reel-play" aria-hidden="true">▶</span>
           <span class="reel-cap">Your only limit is you</span>
         </div>
-        <div class="reel" data-reel tabindex="0" role="button" aria-label="Play reel: three years of lifting">
-          <video src="res/reel-2.mp4" preload="auto" muted loop playsinline webkit-playsinline disablepictureinpicture disableremoteplayback></video>
+        <div class="reel playing" data-reel tabindex="0" role="button" aria-label="Play reel: consistency is key">
+          <video src="https://res.cloudinary.com/wasjl3ph/video/upload/v1787083419/WhatsApp_Video_2026-08-15_at_7.44.24_PM.mp4" autoplay preload="auto" muted loop playsinline webkit-playsinline disablepictureinpicture disableremoteplayback></video>
           <span class="reel-play" aria-hidden="true">▶</span>
-          <span class="reel-cap">3 years of lifting</span>
+          <span class="reel-cap">Consistency is key</span>
         </div>
-        <div class="reel" data-reel tabindex="0" role="button" aria-label="Play reel: every rep makes her stronger">
-          <video src="res/reel-3.mp4" preload="auto" muted loop playsinline webkit-playsinline disablepictureinpicture disableremoteplayback></video>
+        <div class="reel playing" data-reel tabindex="0" role="button" aria-label="Play reel: pushing beyond limits">
+          <video src="https://res.cloudinary.com/wasjl3ph/video/upload/v1787083419/WhatsApp_Video_2026-08-15_at_7.44.21_PM.mp4" autoplay preload="auto" muted loop playsinline webkit-playsinline disablepictureinpicture disableremoteplayback></video>
           <span class="reel-play" aria-hidden="true">▶</span>
-          <span class="reel-cap">Every rep makes her stronger</span>
+          <span class="reel-cap">Pushing beyond limits</span>
         </div>
-        <div class="reel" data-reel tabindex="0" role="button" aria-label="Play reel: community at the studio">
-          <video src="res/reel-4.mp4" preload="auto" muted loop playsinline webkit-playsinline disablepictureinpicture disableremoteplayback></video>
+        <div class="reel playing" data-reel tabindex="0" role="button" aria-label="Play reel: community at the studio">
+          <video src="https://res.cloudinary.com/wasjl3ph/video/upload/v1787083419/WhatsApp_Video_2026-08-15_at_7.44.28_PM.mp4" autoplay preload="auto" muted loop playsinline webkit-playsinline disablepictureinpicture disableremoteplayback></video>
           <span class="reel-play" aria-hidden="true">▶</span>
           <span class="reel-cap">The MAA family</span>
         </div>
@@ -2448,7 +2448,12 @@
       const v = reel.querySelector('video');
       if (v) {
         v.muted = true;
-        v.load();
+        const playPromise = v.play();
+        if (playPromise !== undefined) {
+          playPromise.then(() => {
+            reel.classList.add('playing');
+          }).catch(() => {});
+        }
       }
     });
 
