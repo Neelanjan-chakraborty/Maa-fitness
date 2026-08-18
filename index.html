@@ -1273,13 +1273,29 @@
       transform: translateY(-4px)
     }
 
+    .plan-ico {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 14px;
+      color: var(--gold-hi);
+      filter: drop-shadow(0 0 12px rgba(217, 164, 74, .5));
+      transition: transform .35s ease;
+    }
+
+    .plan:hover .plan-ico {
+      transform: scale(1.14) rotate(-4deg);
+    }
+
     .plan-tier {
       font-family: var(--cond);
       font-weight: 600;
       font-size: 15px;
       letter-spacing: .3em;
       text-transform: uppercase;
-      color: var(--ash)
+      color: var(--ash);
+      text-align: center;
+      display: block;
     }
 
     .plan-price {
@@ -1881,7 +1897,7 @@
   <section class="stats" aria-label="Studio numbers">
     <div class="stats-in">
       <div class="stat"><b data-count="500" data-suffix="+">0</b><span>Active Members</span></div>
-      <div class="stat"><b data-count="1200" data-suffix="+">0</b><span>Transformations</span></div>
+      <div class="stat"><b data-count="100" data-suffix="+">0</b><span>Transformations</span></div>
       <div class="stat"><b data-count="5" data-suffix="+">0</b><span>Expert Trainers</span></div>
       <div class="stat"><b data-count="95" data-suffix="%">0</b><span>Member Retention</span></div>
     </div>
@@ -2004,7 +2020,7 @@
     <div class="wrap">
       <div class="section-head">
         <p class="eyebrow">Real Results</p>
-        <h2>1,200+ transformations.<br><em>Real members. Real progress.</em></h2>
+        <h2>100+ transformations.<br><em>Real members. Real progress.</em></h2>
         <p>Real members, real timelines — proof that consistency at MAA works both ways: fat loss and lean muscle gain.
         </p>
       </div>
@@ -2166,57 +2182,116 @@
       </div>
       <div class="plan-grid">
         <div class="plan reveal">
+          <div class="plan-ico" aria-hidden="true">
+            <svg viewBox="0 0 64 64" width="48" height="48" fill="none">
+              <path d="M14 22v20M18 18v28M46 18v28M50 22v20M22 32h20" stroke="url(#dumbbellGold)" stroke-width="4.5" stroke-linecap="round"/>
+              <rect x="6" y="24" width="8" height="16" rx="2.5" fill="url(#dumbbellGold)"/>
+              <rect x="50" y="24" width="8" height="16" rx="2.5" fill="url(#dumbbellGold)"/>
+              <defs>
+                <linearGradient id="dumbbellGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#F5F5F7"/>
+                  <stop offset="40%" stop-color="#F3C97B"/>
+                  <stop offset="100%" stop-color="#D9A44A"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
           <span class="plan-tier">Bronze</span>
           <div class="plan-price"><small>₹</small>1,800</div>
-          <div class="plan-per">₹1,000 registration + ₹800 / month</div>
+          <div class="plan-per">Registration Fee - ₹1000 + ₹800/Month</div>
           <ul>
-            <li>Unlimited equipment access</li>
-            <li>Personal trainer support</li>
-            <li>No time restrictions</li>
+            <li>Unlimited Equipments</li>
+            <li>Personal Trainer</li>
+            <li>No Time Restrictions</li>
           </ul>
           <a class="btn btn-line"
             href="https://app.fitexo.in/enquiry-form?gym=6a3022849c40d06b95ba78ec&amp;token=ca289899dac2f5c1487eb37ff8aa81b1f8fd47013af20f87c2b4ce59eb4dfa32"
-            target="_blank" rel="noopener">Get Started</a>
+            target="_blank" rel="noopener">Get Started →</a>
         </div>
+
         <div class="plan reveal">
+          <div class="plan-ico" aria-hidden="true">
+            <svg viewBox="0 0 64 64" width="48" height="48" fill="none">
+              <path d="M14 22v20M18 18v28M46 18v28M50 22v20M22 32h20" stroke="url(#dumbbellGold2)" stroke-width="4.5" stroke-linecap="round"/>
+              <rect x="6" y="24" width="8" height="16" rx="2.5" fill="url(#dumbbellGold2)"/>
+              <rect x="50" y="24" width="8" height="16" rx="2.5" fill="url(#dumbbellGold2)"/>
+              <defs>
+                <linearGradient id="dumbbellGold2" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#F5F5F7"/>
+                  <stop offset="40%" stop-color="#F3C97B"/>
+                  <stop offset="100%" stop-color="#D9A44A"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
           <span class="plan-tier">Silver</span>
           <div class="plan-price"><small>₹</small>2,400</div>
-          <div class="plan-per">No registration fee · ₹800 × 3 months</div>
+          <div class="plan-per">No Registration Fee + ₹800 × 3 Months</div>
           <ul>
-            <li>Unlimited equipment access</li>
-            <li>Weight-loss classes</li>
-            <li>No time restrictions</li>
+            <li>Unlimited Equipments</li>
+            <li>Weight Losing Classes</li>
+            <li>No Time Restrictions</li>
           </ul>
           <a class="btn btn-line"
             href="https://app.fitexo.in/enquiry-form?gym=6a3022849c40d06b95ba78ec&amp;token=ca289899dac2f5c1487eb37ff8aa81b1f8fd47013af20f87c2b4ce59eb4dfa32"
-            target="_blank" rel="noopener">Get Started</a>
+            target="_blank" rel="noopener">Get Started →</a>
         </div>
+
         <div class="plan plan-best reveal">
           <span class="plan-flag">Most Popular</span>
+          <div class="plan-ico" aria-hidden="true">
+            <svg viewBox="0 0 64 64" width="48" height="48" fill="none">
+              <path d="M14 22v20M18 18v28M46 18v28M50 22v20M22 32h20" stroke="url(#dumbbellGold3)" stroke-width="4.5" stroke-linecap="round"/>
+              <rect x="6" y="24" width="8" height="16" rx="2.5" fill="url(#dumbbellGold3)"/>
+              <rect x="50" y="24" width="8" height="16" rx="2.5" fill="url(#dumbbellGold3)"/>
+              <defs>
+                <linearGradient id="dumbbellGold3" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#FFFFFF"/>
+                  <stop offset="40%" stop-color="#F3C97B"/>
+                  <stop offset="100%" stop-color="#E23B26"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
           <span class="plan-tier">Gold</span>
           <div class="plan-price"><small>₹</small>4,200</div>
-          <div class="plan-per">No registration fee · ₹700 × 6 months</div>
+          <div class="plan-per">No Registration Fee + ₹700 × 6 Months</div>
           <ul>
-            <li>Unlimited equipment access</li>
-            <li>Weight-loss classes</li>
-            <li>No time restrictions</li>
+            <li>Unlimited Equipments</li>
+            <li>Weight Losing Classes</li>
+            <li>No Time Restrictions</li>
           </ul>
           <a class="btn btn-gold"
             href="https://app.fitexo.in/enquiry-form?gym=6a3022849c40d06b95ba78ec&amp;token=ca289899dac2f5c1487eb37ff8aa81b1f8fd47013af20f87c2b4ce59eb4dfa32"
-            target="_blank" rel="noopener">Get Started</a>
+            target="_blank" rel="noopener">Get Started →</a>
         </div>
+
         <div class="plan reveal">
+          <div class="plan-ico" aria-hidden="true">
+            <svg viewBox="0 0 64 64" width="48" height="48" fill="none">
+              <path d="M14 22v20M18 18v28M46 18v28M50 22v20M22 32h20" stroke="url(#dumbbellGold4)" stroke-width="4.5" stroke-linecap="round"/>
+              <rect x="6" y="24" width="8" height="16" rx="2.5" fill="url(#dumbbellGold4)"/>
+              <rect x="50" y="24" width="8" height="16" rx="2.5" fill="url(#dumbbellGold4)"/>
+              <defs>
+                <linearGradient id="dumbbellGold4" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#F5F5F7"/>
+                  <stop offset="40%" stop-color="#F3C97B"/>
+                  <stop offset="100%" stop-color="#D9A44A"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
           <span class="plan-tier">Diamond</span>
           <div class="plan-price"><small>₹</small>7,200</div>
-          <div class="plan-per">No registration fee · ₹600 × 12 months</div>
+          <div class="plan-per">No Registration Fee + ₹600 × 12 Months</div>
           <ul>
-            <li>Unlimited equipment access</li>
-            <li>Weight-loss classes</li>
-            <li>No time restrictions</li>
+            <li>Unlimited Equipments</li>
+            <li>Weight Losing Classes</li>
+            <li>No Time Restrictions</li>
           </ul>
           <a class="btn btn-line"
             href="https://app.fitexo.in/enquiry-form?gym=6a3022849c40d06b95ba78ec&amp;token=ca289899dac2f5c1487eb37ff8aa81b1f8fd47013af20f87c2b4ce59eb4dfa32"
-            target="_blank" rel="noopener">Get Started</a>
+            target="_blank" rel="noopener">Get Started →</a>
         </div>
       </div>
       <p class="plan-note">Not sure yet? <a
